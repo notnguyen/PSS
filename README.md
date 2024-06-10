@@ -4,14 +4,15 @@
 
 ## Přehled
 
-Tento dokument poskytuje instrukce k použití DJ ovládacího boxu, který umožňuje ovládat DJ software, jako je Mixxx, pomocí tlačítek a posuvníků. Ovládací box je navržen tak, aby byl jednoduchý a efektivní, obsahuje tlačítka pro přehrávání, zastavení, označení místa (cue) a dva posuvníky hlasitosti. Je připojen k počítači pomocí rozhraní MIDI pomocí Arduina Leonardo.
+Tento dokument poskytuje instrukce k použití DJ ovládacího boxu, který umožňuje ovládat DJ software, jako je Mixxx, pomocí tlačítek a posuvníků. Ovládací box je navržen tak, aby byl jednoduchý, efektivní a flexibilní, obsahuje tlačítka pro přehrávání, zastavení, označení místa (cue) a dva posuvníky hlasitosti. Je připojen k počítači pomocí rozhraní MIDI pomocí Arduina Leonardo. Tlačítka a posuvné potenciometry lze v programu nastavit na jakoukoliv funkci.
 
 ## Komponenty
 
 - Arduino Leonardo
-- 2x Posuvné potenciometry (pro ovládání hlasitosti)
-- 3x Tlačítka (pro funkce přehrávání, zastavení a označení místa)
+- 2x Posuvné potenciometry 
+- 3x Tlačítka
 - Dráty pro propojení
+- Breadboard
 
 ## Nastavení
 
