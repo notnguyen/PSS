@@ -1,37 +1,7 @@
-/*
-  Made by Gustavo Silveira, 2023.
-  - This Sketch reads the Arduino's digital and analog ports and send midi notes and midi control change
-
-  http://www.musiconerd.com
-  http://www.youtube.com/musiconerd
-  http://facebook.com/musiconerdmusiconerd
-  http://instagram.com/musiconerd/
-  http://www.gustavosilveira.net
-  gustavosilveira@musiconerd.com
-
-  If you are using for anything that's not for personal use don't forget to give credit.
-
-  PS: Just change the value that has a comment like " // "
-
-*/
-
-/////////////////////////////////////////////
-// Choosing your board
-// Define your board, choose:
-// "ATMEGA328" if using ATmega328 - Uno, Mega, Nano...
-// "ATMEGA32U4" if using with ATmega32U4 - Micro, Pro Micro, Leonardo...
-// "TEENSY" if using a Teensy board
-// "DEBUG" if you just want to debug the code in the serial monitor
-// you don't need to comment or uncomment any MIDI library below after you define your board
-
 #define DEBUG 1  // put here the uC you are using, like in the lines above followed by "1", like "ATMEGA328 1", "DEBUG 1", etc.
 
-/////////////////////////////////////////////
-// Are you using buttons?
 #define USING_BUTTONS 1  // comment if not using buttons
 
-/////////////////////////////////////////////
-// Are you using potentiometers?
 #define USING_POTENTIOMETERS 1  // comment if not using potentiometers
 
 /////////////////////////////////////////////
