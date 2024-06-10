@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MixxxControllerPreset mixxxVersion="" schemaVersion="1">
+    <info>
+        <name>Slide Pot</name>
+    </info>
+    <controller id="">
+        <scriptfiles/>
+        <controls>
+            <control>
+                <group>[Channel1]</group>
+                <key>volume</key>
+                <description>MIDI Learned from 257 messages.</description>
+                <status>0xB0</status>
+                <midino>0x01</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EqualizerRack1_[Channel1]_Effect1]</group>
+                <key>parameter3</key>
+                <description>MIDI Learned from 72 messages.</description>
+                <status>0xB0</status>
+                <midino>0x02</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>reverse</key>
+                <description>MIDI Learned from 7 messages.</description>
+                <status>0x90</status>
+                <midino>0x24</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>cue_default</key>
+                <description>MIDI Learned from 7 messages.</description>
+                <status>0x90</status>
+                <midino>0x25</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>play</key>
+                <description>MIDI Learned from 14 messages.</description>
+                <status>0x90</status>
+                <midino>0x26</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+        </controls>
+        <outputs/>
+    </controller>
+</MixxxControllerPreset>
